@@ -23,3 +23,41 @@ if(a){
 
 const nameMAHUN= [3434]
 // console.log(nameMAHUN)
+
+
+// closoure
+function closoure(){
+    let x = 0;
+   function naem (){
+        x++;
+        return x;
+
+}
+naem()
+}
+// let clo1 = closoure();
+// let clo2 = closoure();
+// let clo3 = closoure();
+// let clo4 = closoure();
+// clo1()
+// clo1()
+// clo1()
+// clo1()
+// clo1()
+// console.log(clo1())
+// console.log(clo4())
+
+// console.log(closoure());
+
+
+
+let n = 49;
+let b = n;
+n = 29;
+console.log(b, n);
+
+
+let onf333 = {name : "mahin"};
+let onf4444 = onf333;
+    onf4444 = {age : 34}; 
+console.log(onf333, onf4444)
